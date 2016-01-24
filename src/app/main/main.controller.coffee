@@ -39,7 +39,7 @@ angular.module 'coffeeBaseCtrlTest'
     vm = this
 
     class MainController extends BaseController
-      activate: =>
+      activate: ->
         console.log 'activate from MainController'
         super
 
